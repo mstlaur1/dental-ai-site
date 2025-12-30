@@ -69,10 +69,34 @@
         Aucune obligation à long terme. Si ça n’aide pas concrètement, vous arrêtez — point.
       </p>
 
-      <p>
-        <strong>Intéressé(e) ?</strong><br />
-        Écrivez-nous : <a href="mailto:hello@yourdomain.ca">hello@yourdomain.ca</a>
+    <form class="contact" action="mailto:hello@yourdomain.ca" method="post" enctype="text/plain">
+      <div class="field">
+        <label for="nom">Nom</label>
+        <input id="nom" name="Nom" type="text" autocomplete="name" required />
+      </div>
+    
+      <div class="field">
+        <label for="clinique">Clinique</label>
+        <input id="clinique" name="Clinique" type="text" required />
+      </div>
+    
+      <div class="field">
+        <label for="courriel">Courriel</label>
+        <input id="courriel" name="Courriel" type="email" autocomplete="email" required />
+      </div>
+    
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="Message" rows="5" placeholder="Ex: Nous voulons réduire le temps passé sur la prise de rendez-vous et les suivis."></textarea>
+      </div>
+    
+      <button class="button primary" type="submit">Envoyer</button>
+    
+      <p class="note">
+        Ou écrivez-nous directement : <a href="mailto:hello@yourdomain.ca">hello@yourdomain.ca</a>
       </p>
+    </form>
+
     </section>
   </main>
 
