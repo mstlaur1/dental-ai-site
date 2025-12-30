@@ -89,6 +89,21 @@ li {
   background-color: #f3f4f6;
 }
 
+.lang-switch {
+  text-align: right;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.lang-switch a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.lang-switch a:hover {
+  text-decoration: underline;
+}
+
 /* Footer */
 .footer {
   border-top: 1px solid #e5e7eb;
