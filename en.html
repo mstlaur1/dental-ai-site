@@ -71,11 +71,34 @@
         No long-term commitment. If it doesn’t help, you walk away.
       </p>
 
-      <p>
-        <strong>Interested?</strong><br />
-        Email us at
-        <a href="mailto:hello@yourdomain.ca">hello@yourdomain.ca</a>
+    <form class="contact" action="mailto:hello@yourdomain.ca" method="post" enctype="text/plain">
+      <div class="field">
+        <label for="name">Name</label>
+        <input id="name" name="Name" type="text" autocomplete="name" required />
+      </div>
+    
+      <div class="field">
+        <label for="clinic">Clinic</label>
+        <input id="clinic" name="Clinic" type="text" required />
+      </div>
+    
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" name="Email" type="email" autocomplete="email" required />
+      </div>
+    
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="Message" rows="5" placeholder="e.g., We want to reduce time spent on scheduling and follow-ups."></textarea>
+      </div>
+    
+      <button class="button primary" type="submit">Send</button>
+    
+      <p class="note">
+        Or email us directly: <a href="mailto:hello@yourdomain.ca">hello@yourdomain.ca</a>
       </p>
+    </form>
+
     </section>
   </main>
 
