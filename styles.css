@@ -159,19 +159,11 @@ li {
 }
 
 .section-alt {
-  padding: 1.5rem;
+  padding: 2rem;
   background-color: #ffffff;
   border-radius: 16px;
   border: 1px solid #e5e7eb;
   margin-top: 2.5rem;
-}
-
-.section-alt h2 {
-  margin-top: 0;
-}
-
-.section-alt .list-check li {
-  margin-bottom: 0.4rem;
 }
 
 .card-grid {
